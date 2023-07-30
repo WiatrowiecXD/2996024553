@@ -21,5 +21,3 @@ name="WW2 Unglued"
 supported_version="1.12.14"
 remote_file_id="2996024553"
 
-
-#DDD
