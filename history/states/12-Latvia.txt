@@ -1,0 +1,34 @@
+
+state={
+	id=12
+	name="STATE_12"
+	manpower = 408500
+	resources = {
+		aluminium = 29 # was: 28
+	}
+	
+	state_category = rural
+	
+	history={
+		owner = SWE
+		victory_points = {
+			10493 1 #Valmiera
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+		}
+		add_core_of = SWE
+		1936.1.3 = {
+			owner = SWE
+			add_core_of = SWE
+		}
+	}
+
+	provinces={
+		3388 9317 9501 10493 11302
+	}
+
+	local_supplies=0.0 
+}

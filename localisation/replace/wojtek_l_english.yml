@@ -1,0 +1,17 @@
+﻿ l_english:
+   free_trade:0 "Yes cannons slow market"
+   SOV_optimize_production_lines_ns_tt:0 "$SOV_modify_fyp_ns_intro$ \nFactory Output: §G+10.00%§! \n£prod_eff Production Efficiency growth: §G+10.00%§! \nProduction Efficiency Base: §G+5.00%§! \n\n"
+   improved_medium_tank_chassis_short:1 "1940 Medium-§R1938§!"
+   basic_medium_tank_chassis_short:1 "1936 Medium"
+   advanced_medium_tank_chassis_short:1 "1943 Medium-§R1940§!"
+   improved_heavy_tank_chassis_short:1 "1940 Heavy-§R1938§!"
+   advanced_heavy_tank_chassis_short:1 "1943 Heavy -§R1940$!"
+   advanced_medium_airframe:0 "§R1940§! Advanced Medium Airframe"
+   advanced_large_airframe:0 "§R1940§! Advanced Large Airframe"
+   advanced_small_airframe:0 "§R1940§! Advanced Small Airframe"
+   ITA_power_plants_in_terni_ricostruzione_industriale_tt:0 "$ITA_modify_ricostruzione_industriale_dynamic_modifier_ns_intro$ \n$modifier_production_speed_industrial_complex_factor$: §G+10.00%§! \n\n"
+   SAF_democratic:0 "Mutapa"
+   SAF_democratic_DEF:0 "Mutapa"
+   
+   
+   

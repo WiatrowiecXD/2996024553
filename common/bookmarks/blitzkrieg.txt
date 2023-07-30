@@ -1,0 +1,198 @@
+bookmarks = {
+	bookmark = {
+		name = "BLITZKRIEG_NAME"
+		desc = "BLITZKRIEG_DESC"
+		date = 1936.1.2.12
+		picture = "GFX_select_date_1939"
+		default_country = "GER"
+	
+		FRA = {
+			history = FRA_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas={
+				FRA_victors_of_wwi
+				FRA_disjointed_government
+				FRA_protected_by_the_maginot_line
+			}
+			focuses = {
+				FRA_strengthen_government_support
+				FRA_arms_purchases_in_the_us
+				FRA_french_union
+			}
+		}
+		ENG = {
+			history = ENG_BLITZKRIEG_DESC
+			ideology = democratic
+			ideas = {
+				stiff_upper_lip
+				ENG_the_war_to_end_all_wars
+				ENG_george_vi
+				british_austerity_idea
+				ENG_colonial_elite
+			}
+			focuses = {
+				ENG_war_with_japan
+				bomber_command_focus
+				maud_focus
+			}
+			
+		}
+		GER = {
+			history = GER_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas = {
+				sour_loser
+				general_staff
+				GER_mefo_bills_15
+				GER_autarky_idea
+			}
+			focuses = {
+				GER_weserubung
+				GER_plan_z
+				GER_ussr_war_goal
+			}
+		}
+		ITA = {
+			history = ITA_BLITZKRIEG_DESC
+			ideology = fascism
+			ideas={
+				vittoria_mutilata
+				victor_emmanuel
+			}
+			focuses = {
+				ITA_pact_of_steel
+				ITA_spanish_italian_faction
+				ITA_italy_first
+			}			
+		}
+		SOV = {
+			history = SOV_BLITZKRIEG_DESC
+			ideology = communism
+			ideas = {
+				trotskyite_plot_purged
+				home_of_revolution
+				officers_purged
+				nkvd_2
+			}
+			focuses = {
+				SOV_move_industry_to_urals
+				SOV_claims_on_baltic
+				SOV_war_with_uk
+			}
+		}
+
+
+		# minors from DLC ####
+	
+		"CAN"={
+			minor = yes
+			history = "CAN_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+				CAN_great_depression_1
+				CAN_conscription_crisis
+			}
+			focuses = {
+				CAN_skewer_the_eagle
+				CAN_north_american_alliance
+				CAN_join_comintern
+			}
+		}
+		
+		"SAF"={
+			minor = yes
+			history = "SAF_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+				SAF_ossewabrandwag
+				SAF_history_of_segregation
+			}
+			focuses = {
+				SAF_secure_interests_in_africa
+				SAF_support_the_german_coup
+				SAF_anti_colonialist_crusade
+			}
+		}
+		
+		"NOR"={
+			minor = yes
+			history = "NOR_BLITZKRIEG_DESC"
+			ideology = democratic
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"FIN"={
+			minor = yes
+			history = "FIN_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				
+			}
+			focuses = {
+				
+			}
+		}
+		
+		"HUN"={
+			minor = yes
+			history = "HUN_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				HUN_treaty_of_triannon_3
+				HUN_interventionism
+				HUN_strengthen_fascists
+			}
+			focuses = {
+				HUN_elect_a_king
+				HUN_secret_rearmament
+				HUN_renounce_the_treaty_of_trianon
+			}
+		}
+
+		"ROM"={
+			minor = yes
+			history = "ROM_BLITZKRIEG_DESC"
+			ideology = neutrality
+			ideas = {
+				ROM_king_carol_ii_hedonist
+				ROM_preserve_greater_romania
+				ROM_iron_guard
+			}
+			focuses = {
+				ROM_balkans_dominance
+				ROM_institute_royal_dictatorship
+				ROM_preserve_greater_romania
+			}
+		}
+		
+		"VIC"={
+			minor = yes
+			history = "NEEDS THE GAMERULE TO BE ON Starts with Algeria, has normal French tree plus Vichy tree, you get the French navy, starts with same spirits as France"
+			ideology = neutrality
+			ideas = {
+				FRA_up_with_jean_darc
+				FRA_venerate_the_craftsman
+				VIC_aircraft_parts
+			}
+			focuses = {
+				VIC_down_with_marianne
+				VIC_concessions_to_the_germans
+				VIC_end_the_occupation
+			}
+		}
+		
+		
+
+		
+
+		effect = {
+			randomize_weather = 12345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

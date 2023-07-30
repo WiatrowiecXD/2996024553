@@ -1,0 +1,40 @@
+state={
+	id=539
+	name="STATE_539"
+	
+	resources={
+		aluminium=72 # was: 8
+		steel= 90 # was: 80
+		tungsten = 72 # was: 20
+	}
+	
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			5139 1 
+		}
+		buildings = {
+			infrastructure = 4
+			5139 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_extra_state_shared_building_slots = 16
+		1936.1.3 = {
+			owner = SWE
+			add_core_of = SWE
+		}
+	}
+
+	provinces={
+		5139 8207 10948 13210 
+	}
+	manpower=409752
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+
+	local_supplies=1.0 
+}

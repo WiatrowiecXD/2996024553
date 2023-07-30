@@ -1,0 +1,374 @@
+ideas = {
+	country = {
+		minors_tiger_bul = {
+			picture = generic_production_bonus
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.1
+			}
+			
+		}
+		
+		
+		no_air_soviet_tiger = {
+			picture = generic_production_bonus
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = -0.1
+				army_core_defence_factor = -0.1
+				army_org_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+			}
+			
+		}
+		
+		
+		minors_tiger_tt = {
+			picture = generic_manpower_bonus
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_efficiency_gain_factor = 0.2
+				
+				air_superiority_efficiency = -0.25
+				air_intercept_efficiency = -0.25
+				air_mission_efficiency = -0.25
+			}
+		}
+		
+		GER_barbarossa_afrika = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_acquire_tanks
+
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.02
+				defense_bonus_against = 0.01
+			}
+
+		}
+		
+		GER_fall_blau_ideas = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_acquire_tanks
+
+			targeted_modifier = {
+				tag = SOV
+				attack_bonus_against = 0.12
+				defense_bonus_against = 0.025
+				breakthrough_bonus_against = 0.05
+			}
+			modifier = {
+				air_agility_factor = 0.1
+			}
+
+		}
+		
+		SOV_stabilize_front_tiger = {
+			allowed = {
+				always = no
+			}
+
+			
+
+			removal_cost = -1
+
+			picture = generic_acquire_tanks
+
+			
+			modifier = {
+				air_agility_factor = 0.05
+				acclimatization_cold_climate_gain_factor = 0.25
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				army_morale_factor = 0.1
+				army_org_factor = 0.1
+				industrial_capacity_factory = -0.5
+			}
+
+		}
+		
+		ENG_wartime_industry_focus = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			modifier = {
+				conversion_cost_civ_to_mil_factor= -0.5
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+			}
+		}
+		
+		SOV_fourth_year_plan_tiger = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.1
+				#production_factory_max_efficiency_factor = 0.05
+			}
+		}
+		
+		GER_france_tiger = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = fascism
+			}
+
+			removal_cost = -1
+
+			picture = generic_acquire_tanks
+
+			targeted_modifier = {
+				tag = FRA
+				attack_bonus_against = 0.1
+			}
+			modifier = {
+				army_org_regain = 0.1
+				army_strength_factor = 0.25
+			}
+
+		}
+		GER_blitzkrieg_tiger = {
+			picture = german_advisors
+			allowed_civil_war = {
+				always = yes
+			}
+			removal_cost = -1
+			modifier = {
+				army_strength_factor = 0.25
+				army_attack_factor = 0.1
+				air_cas_efficiency = 0.1
+				air_agility_factor = 0.1
+			
+			}
+		}
+		
+		mod_trade_allies = { #free trade for any allied nation with the allies and USSR
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+			
+		#	targeted_modifier = {
+		#		tag = ENG
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = CAN
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = SAF
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = RAJ
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = AST
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = NZL
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = MAL
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = FRA
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = USA
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = SOV
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = MEX
+		#		trade_cost_for_target_factor = -1
+		#	}
+		}
+		
+		mod_trade_axis = { #free trade for the Axis and CoPro
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.05
+				production_factory_max_efficiency_factor = 0.025
+			}
+			
+		#	targeted_modifier = {
+		#		tag = GER
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = ITA
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = HUN
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = ROM
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = BUL
+		#		trade_cost_for_target_factor = -1
+		#	}
+		#	targeted_modifier = {
+		#		tag = SPR
+		#		trade_cost_for_target_factor = -1
+		#	}
+		}
+		
+		
+		sov_tiger_growth = { #free trade for the Axis and CoPro
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.15
+				#consumer_goods_factor = -0.03
+			}
+			
+		}
+	
+	france_cap_tiger = { #free trade for the Axis and CoPro
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			
+			modifier = {
+				surrender_limit = -0.4
+			}
+	}
+	
+	
+	vichy_tiger = { #free trade for the Axis and CoPro
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			
+			modifier = {
+				
+				experience_gain_army = 0.2
+				industrial_capacity_factory = 0.1
+				
+			}
+		
+	}
+	
+	vichy_tiger_consumer = { #free trade for the Axis and CoPro
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = generic_production_bonus
+			
+			
+			modifier = {
+				consumer_goods_factor = 1
+				production_lack_of_resource_penalty_factor = -1
+			}
+		
+	}
+}

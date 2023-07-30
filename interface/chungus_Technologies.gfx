@@ -1,0 +1,36 @@
+spriteTypes = {
+
+	SpriteType = {
+		name = "GFX_plane_at_gun_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/modules/airplane_tank_buster_1_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_plane_at_gun_2_medium"
+		texturefile = "gfx/interface/equipmentdesigner/planes/modules/airplane_tank_buster_2_icon.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_tropical_inf_medium"
+		texturefile = "gfx/interface/technologies/tech_tropical_inf.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_tropical_inf2_medium"
+		texturefile = "gfx/interface/technologies/tech_tropical_inf2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_tropical_inf3_medium"
+		texturefile = "gfx/interface/technologies/tech_tropical_inf3.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_jager_inf_medium"
+		texturefile = "gfx/interface/technologies/tech_jager_inf.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_jager_inf2_medium"
+		texturefile = "gfx/interface/technologies/tech_jager_inf2.dds"
+	}
+	SpriteType = {
+		name = "GFX_tech_jager_inf3_medium"
+		texturefile = "gfx/interface/technologies/tech_jager_inf3.dds"
+	}
+
+}

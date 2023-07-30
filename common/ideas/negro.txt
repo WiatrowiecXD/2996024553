@@ -1,0 +1,17 @@
+ideas = {
+	country = {
+		sov_wojtek_3 = {
+			allowed = {
+				always = no # Added via focus
+			}
+			removal_cost = -1
+			picture = SPR_collectivized_society
+			modifier = {
+				consumer_goods_factor = -0.03
+				production_speed_buildings_factor = 0.15
+				production_speed_infrastructure_factor = 0.15
+				production_speed_rail_way_factor = 0.15
+			}
+		}
+	}
+}

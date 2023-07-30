@@ -1,0 +1,19 @@
+﻿
+units= {
+
+	##### NAVAL UNITS #####
+	### METRPOLITAN FRANCE ###
+	
+} 
+
+
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+instant_effect = {
+
+	
+}
+
+#####################

@@ -1,0 +1,26 @@
+state={
+	id=888
+	name="STATE_888"
+	manpower = 885237
+	state_category = pastoral 
+
+	history = {
+		owner = SWE
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SWE
+1936.1.3 = {
+			owner = SWE
+			add_core_of = SWE
+		}
+	}
+
+	provinces={
+		1731 1929 2024 4128 7716 8016 9986 10858 
+	}
+
+	buildings_max_level_factor = 1.000
+	local_supplies = 0.000
+}
