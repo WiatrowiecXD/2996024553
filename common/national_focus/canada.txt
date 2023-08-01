@@ -1894,7 +1894,7 @@
 		x = 15
 		y = 0
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 4
@@ -1932,7 +1932,7 @@
 		y = 1
 		relative_position_id = CAN_army_modernization
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 25
@@ -1970,7 +1970,7 @@
 		y = 1
 		relative_position_id = CAN_army_modernization
 
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 25
@@ -2016,7 +2016,7 @@
 		y = 2
 		relative_position_id = CAN_army_modernization 
 
-		cost = 10
+		cost = 6
 
 		ai_will_do = {
 			factor = 25
@@ -2062,7 +2062,7 @@
 		y = 3
 		relative_position_id = CAN_army_modernization
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 25
@@ -2099,7 +2099,7 @@
 		y = 3
 		relative_position_id = CAN_army_modernization 
 
-		cost = 10
+		cost = 2
 
 		ai_will_do = {
 			factor = 25
@@ -2148,7 +2148,7 @@
 		y = 4
 		relative_position_id = CAN_army_modernization 
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 25

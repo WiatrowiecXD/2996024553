@@ -2246,6 +2246,11 @@ focus_tree = {
 
 		available_if_capitulated = yes
 		complete_tooltip = {
+			set_technology = {
+				radio_detection = 1
+				decimetric_radar = 1
+				improved_decimetric_radar = 1
+			}
 			air_experience = 25
 			add_doctrine_cost_reduction = {
 			add_tech_bonus = {
@@ -2282,6 +2287,11 @@ focus_tree = {
 		
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
+			set_technology = {
+				radio_detection = 1
+				decimetric_radar = 1
+				improved_decimetric_radar = 1
+			}
 			add_tech_bonus = {
 				name = bomber_bonus
 				bonus = 1.0

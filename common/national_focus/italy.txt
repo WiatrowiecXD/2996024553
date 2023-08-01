@@ -2585,7 +2585,7 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = ITA_oto_naval_guns
-				bonus = 1.0
+				bonus = 0.25
 				uses = 2
 				category = cat_ship_medium_battery
 				category = cat_ship_heavy_battery

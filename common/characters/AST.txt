@@ -132,12 +132,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ hill_fighter }
-			skill=3
-			attack_skill=2
+			traits={ desert_fox infantry_leader panzer_leader jungle_rat hill_fighter} 
+			skill=6
+			attack_skill=5
 			defense_skill=4
 			planning_skill=3
-			logistics_skill=1
+			logistics_skill=9
 			legacy_id=-1
 		}
 	}
@@ -151,12 +151,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ desert_fox infantry_leader panzer_leader}
-			skill=3
-			attack_skill=3
-			defense_skill=1
-			planning_skill=3
-			logistics_skill=3
+			traits={ desert_fox infantry_leader panzer_leader jungle_rat} 
+			skill=6
+			attack_skill=5
+			defense_skill=4
+			planning_skill=9
+			logistics_skill=6
 			legacy_id=-1
 		}
 	}
@@ -170,9 +170,9 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ armor_officer panzer_leader ranger organizer }
+			traits={ armor_officer panzer_leader ranger organizer desert_fox jungle_rat}
 			skill=6
-			attack_skill=5
+			attack_skill=7
 			defense_skill=3
 			planning_skill=2
 			logistics_skill=1

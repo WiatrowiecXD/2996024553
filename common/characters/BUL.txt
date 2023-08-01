@@ -414,7 +414,7 @@ characters={
 					original_tag  = BUL 
 				}
 				traits  = {
-					army_chief_offensive_2 
+					army_chief_offensive_3
 				}
 				ai_will_do  = {
 					factor  = 1.000

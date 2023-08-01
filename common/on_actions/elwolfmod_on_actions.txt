@@ -562,6 +562,10 @@ on_actions = {
 					}
 				}
 				add_ideas = elwolfmod_novols
+				add_timed_idea = {
+					idea = prod_growth_tiger
+					days = 30
+				}
 			}
 			every_country = {
 				limit = {

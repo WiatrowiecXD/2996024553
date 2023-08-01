@@ -725,7 +725,7 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH}
 
 		completion_reward = {
-			add_offsite_building { type = arms_factory level = 30 }
+			add_offsite_building { type = arms_factory level = 20 }
 			hidden_effect = {
 				set_variable = { SOV_fyp_production_speed_industrial_complex_factor = 0 } #Remove Civ constr speed
 			}
@@ -1068,7 +1068,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = SOV_fourth_year_plan_tiger
-			add_offsite_building = { type = industrial_complex level = 15 }
+			add_offsite_building = { type = industrial_complex level = 25 }
 		}
 	}
 

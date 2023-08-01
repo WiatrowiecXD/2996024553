@@ -2003,7 +2003,7 @@
 		}
 
 		available = {
-
+			date > 1937.6.1
 		}
 
 		bypass = {
@@ -2021,6 +2021,13 @@
 				bonus = 1.5
 				uses = 2
 				category = light_fighter		
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 1.5
+				uses = 2
+				technology = engines_4
+				technology = engines_3
 			}
 			add_tech_bonus = {
 				name = JAP_fighter_modernization

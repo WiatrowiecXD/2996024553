@@ -37,6 +37,10 @@ add_timed_idea = {
 	idea = vichy_tiger_consumer
 	days = 1640
 }
+add_timed_idea = {
+		idea = prod_growth_tiger
+		days = 30
+}
 if = {
 	limit = { has_dlc = "Man the Guns" }
 	set_war_support = 0.1

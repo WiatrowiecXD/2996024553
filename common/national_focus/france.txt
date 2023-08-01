@@ -40,7 +40,7 @@
 		}
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
+		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
 			add_timed_idea = {
@@ -61,17 +61,14 @@
 		prerequisite = { focus = FRA_devalue_the_franc }
 		mutually_exclusive = { }
 		relative_position_id = FRA_devalue_the_franc
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
 		}
 
 		available = {
-			any_owned_state = {
-				is_core_of = ROOT
-				infrastructure < 4
-			}
+			
 		}
 		
 		bypass = {
@@ -80,16 +77,11 @@
 
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
+		available_if_capitulated = yes
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_owned_state = {
-				limit = { 
-					is_core_of = ROOT 
-					infrastructure < 4
-					not = { has_state_flag = FRA_autoroutes_target }
-				}
+			774 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -97,38 +89,7 @@
 				}
 				set_state_flag = FRA_autoroutes_target
 			}
-			random_owned_state = {
-				limit = { 
-					is_core_of = ROOT 
-					infrastructure < 4
-					not = { has_state_flag = FRA_autoroutes_target }
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = FRA_autoroutes_target
-			}
-			random_owned_state = {
-				limit = { 
-					is_core_of = ROOT 
-					infrastructure < 4
-					not = { has_state_flag = FRA_autoroutes_target }
-				}
-				add_building_construction = {
-					type = infrastructure
-					level = 1
-					instant_build = yes
-				}
-				set_state_flag = FRA_autoroutes_target
-			}
-			random_owned_state = {
-				limit = { 
-					is_core_of = ROOT 
-					infrastructure < 4
-					not = { has_state_flag = FRA_autoroutes_target }
-				}
+			660 = {
 				add_building_construction = {
 					type = infrastructure
 					level = 1
@@ -151,7 +112,7 @@
 			prerequisite = { focus = FRA_devalue_the_franc }
 			mutually_exclusive = { }
 			relative_position_id = FRA_devalue_the_franc
-			cost = 10
+			cost = 5
 	
 			ai_will_do = {
 				factor = 1
@@ -167,11 +128,12 @@
 	
 			cancel_if_invalid = yes
 			continue_if_invalid = no
-			available_if_capitulated = no
+			available_if_capitulated = yes
 	
 			search_filters = { FOCUS_FILTER_STABILITY }
 			completion_reward = {
 				add_stability = 0.05
+				add_political_power = 100
 			}
 		}	
 	focus = {
@@ -189,7 +151,7 @@
 		}
 		x = 0
 		y = 2
-		cost = 10
+		cost = 5
 		ai_will_do = {
 			factor = 1
 		}		
@@ -197,43 +159,23 @@
 		relative_position_id = FRA_devalue_the_franc
 		cancel_if_invalid = yes
 		continue_if_invalid = no
-		available_if_capitulated = no
+		available_if_capitulated = yes
 		bypass = {
 			
 		}
 
-		complete_tooltip = {
-			every_owned_state = {
-				limit = { 
-					has_state_flag = FRA_industrial_expansion_target
-				}
-				add_extra_state_shared_building_slots = 2
-			}
-		}
+		
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			random_owned_state = {
-				limit = { 
-					is_core_of = ROOT 
-					NOT = {
-						has_state_flag = FRA_industrial_expansion_target
-					}	
-				}
+			773 = {	
 				add_extra_state_shared_building_slots = 2
-				set_state_flag = FRA_industrial_expansion_target
-				random_neighbor_state = {
-					limit = { 
-						is_core_of = ROOT 	
-						is_owned_by = ROOT
-						NOT = {
-							has_state_flag = FRA_industrial_expansion_target
-						}	
-					}
-					add_extra_state_shared_building_slots = 2
-					set_state_flag = FRA_industrial_expansion_target
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
 				}
-			}
+			}	
 		}
 	}
 
@@ -257,34 +199,18 @@
 		cancel_if_invalid = yes
 		continue_if_invalid = no
 		available_if_capitulated = no
-		complete_tooltip = {
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-					has_state_flag = FRA_industrial_expansion_target
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
+		
 
 		search_filters = {  FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			custom_effect_tooltip = FRA_industrial_expansion_effect_tt
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-					has_state_flag = FRA_industrial_expansion_target
-				}
-				add_building_construction = {
-					type = industrial_complex
-					level = 2
-					instant_build = yes
-				}
-			}
+			773 = {	
+					add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+						type = industrial_complex
+						level = 2
+						instant_build = yes
+					}
+				}	
 		}
 	}
 
@@ -306,34 +232,12 @@
 			
 		}
 
-		complete_tooltip = {
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-					OR = {
-						has_state_flag = FRA_industrial_expansion_target
-						has_state_flag = FRA_colonial_industry_target
-					}
-				}
-				add_building_construction = {
-					type = arms_factory
-					level = 2
-					instant_build = yes
-				}
-			}
-		}
+		
 
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		completion_reward = {
-			custom_effect_tooltip = FRA_military_factories_effect_tt
-			every_owned_state = {
-				limit = {
-					is_controlled_by = ROOT
-					OR = {
-						has_state_flag = FRA_industrial_expansion_target
-						has_state_flag = FRA_colonial_industry_target
-					}
-				}
+			773 = {	
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
 					level = 2
@@ -449,7 +353,7 @@
 		prerequisite = { focus = FRA_devalue_the_franc }
 		mutually_exclusive = { }
 		relative_position_id = FRA_devalue_the_franc
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 1
@@ -648,11 +552,7 @@
 		id = FRA_extra_research_slot
 		icon = GFX_focus_research
 		available = {
-			if = {
-				limit = { amount_research_slots > 3 }
-				num_of_factories > 75
-			}
-			amount_research_slots < 5
+			
 		}
 		prerequisite = {
 			focus = FRA_industrial_expansion
@@ -661,7 +561,7 @@
 		x = 0
 		y = 1
 		relative_position_id = FRA_industrial_expansion
-		cost = 10
+		cost = 5
 
 		available_if_capitulated = yes
 
@@ -681,11 +581,7 @@
 			focus = FRA_colonial_industry
 		}
 		available = {
-			if = {
-				limit = { amount_research_slots > 3 }
-				num_of_factories > 75
-			}
-			amount_research_slots < 5
+			
 		}
 		x = 0
 		y = 1

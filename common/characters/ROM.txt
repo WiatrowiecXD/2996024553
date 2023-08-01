@@ -132,7 +132,7 @@ characters={
 		corps_commander={
 			traits={ hill_fighter commando infantry_leader trait_engineer panzer_leader}
 			skill=4
-			attack_skill=7
+			attack_skill=8
 			defense_skill=3
 			planning_skill=3
 			logistics_skill=2
@@ -204,7 +204,7 @@ characters={
 				original_tag = ROM
 			}
 			traits = {
-				army_chief_offensive_2
+				army_chief_offensive_3
 			}
 			cost = 100
 			ai_will_do = {
@@ -400,7 +400,7 @@ characters={
 		corps_commander={
 			traits={ organiser hill_fighter commando infantry_leader trait_engineer panzer_leader}
 			skill=6
-			attack_skill=6
+			attack_skill=7
 			defense_skill=4
 			planning_skill=3
 			logistics_skill=3

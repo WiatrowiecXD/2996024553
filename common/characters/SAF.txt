@@ -114,11 +114,11 @@ characters={
 				small=GFX_portrait_SAF_guy_hallifax_small
 			}
 		}
-		navy_leader={
-			traits={ battleship_adherent }
-			skill=3
+		corps_commander={
+			traits={ desert_fox panzer_leader organizer}
+			skill=6
 			attack_skill=4
-			defense_skill=2
+			defense_skill=3
 			maneuvering_skill=2
 			coordination_skill=2
 			legacy_id=-1

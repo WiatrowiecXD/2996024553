@@ -81,12 +81,12 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ ranger }
-			skill=3
-			attack_skill=2
-			defense_skill=3
-			planning_skill=2
-			logistics_skill=3
+			traits = {  cavalry_leader armor_officer war_hero panzer_leader trait_engineer infantry_leader trickster organizer desert_fox trait_mountaineer ranger }
+			skill=6
+			attack_skill=5
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=5
 			legacy_id=-1
 		}
 	}
@@ -100,11 +100,11 @@ characters={
 			}
 		}
 		corps_commander={
-			traits={ jungle_rat }
-			skill=4
-			attack_skill=2
-			defense_skill=4
-			planning_skill=3
+			traits = { cavalry_leader armor_officer war_hero panzer_leader trait_engineer infantry_leader trickster organizer desert_fox trait_mountaineer ranger }
+			skill=6
+			attack_skill=4
+			defense_skill=5
+			planning_skill=5
 			logistics_skill=4
 			legacy_id=-1
 		}
